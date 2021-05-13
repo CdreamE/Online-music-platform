@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/head_iv"
+                android:layout_width="@dimen/ico_launcher_64dp"
+                android:layout_height="@dimen/ico_launcher_64dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:src="@mipmap/ico_launcher" />
+
+            <TextView
+                android:id="@+id/user_name_tv"
+                style="@style/TwoTextMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/sign_in_btn"
+                android:layout_width="@dimen/button_sign_width"
+                android:layout_height="@dimen/button_sign_height"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_button"
+                android:text="签到" />
+
+        </LinearLayout>
+
+
+        <View style="@style/SettingBigDivider" />
+
+        <com.example.q.pocketmusic.view.widget.view.IcoTextItem
+            android:id="@+id/email_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemTitleIco="@drawable/ic_vec_profile_email"
+            app:itemTitleText="反馈意见" />
+
+        <View style="@style/SettingBigDivider" />
+
+
+        <com.example.q.pocketmusic.view.widget.view.IcoTextItem
+            android:id="@+id/post_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemTitleIco="@drawable/ic_vec_profile_post"
+            app:itemTitleText="我的求谱" />
+
+        <View style="@style/SettingDivider" />
+
+
+        <com.example.q.pocketmusic.view.widget.view.IcoTextItem
+            android:id="@+id/contribution_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemTitleIco="@drawable/ic_vec_profile_coin"
+            app:itemTitleText="我的硬币" />
+
+        <View style="@style/SettingDivider" />
+
+        <com.example.q.pocketmusic.view.widget.view.IcoTextItem
+            android:id="@+id/collection_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemTitleIco="@drawable/ic_vec_profile_collection"
+            app:itemTitleText="我的收藏" />
+
+
+
+        <View style="@style/SettingBigDivider" />
+
+        <com.example.q.pocketmusic.view.widget.view.IcoTextItem
+            android:id="@+id/help_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemTitleIco="@drawable/ic_vec_setting_help"
+            app:itemTitleText="帮助" />
+
+        <View style="@style/SettingDivider" />
+
+        <com.example.q.pocketmusic.view.widget.view.IcoTextItem
+            android:id="@+id/setting_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemTitleIco="@drawable/ic_vec_profile_setting"
+            app:itemTitleText="设置" />
+
+        <View style="@style/SettingBigDivider" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+

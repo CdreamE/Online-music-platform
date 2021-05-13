@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="libraryTable">
+    <library name="wrapper">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/Desktop/demo/.mvn/wrapper" />
+        <root url="file://$USER_HOME$/Desktop/demo/src/main/java" />
+        <root url="file://$USER_HOME$/Desktop/demo/src/test/java" />
+      </SOURCES>
+    </library>
+  </component>
+</project>
